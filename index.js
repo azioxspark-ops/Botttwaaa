@@ -65,8 +65,8 @@ function createBot() {
     if (text.includes("login")) {
       setTimeout(() => {
        bot.chat("/login botwa123123");
-     }, 1000);*/
-    }
+     }, 1000);
+    } */
   });
 
   // Auto equip sword and shield
