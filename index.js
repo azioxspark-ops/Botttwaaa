@@ -39,7 +39,7 @@ function createBot() {
 
     // Try login after join
     setTimeout(() => {
-      bot.chat("/login botwa123123");
+     // bot.chat("/login botwa123123");
     }, 3000);
 
     // Anti AFK
@@ -56,7 +56,7 @@ function createBot() {
   bot.on("message", (msg) => {
     const text = msg.toString().toLowerCase();
 
-    if (text.includes("register")) {
+   /* if (text.includes("register")) {
       setTimeout(() => {
         bot.chat("/register botwa123123 botwa123123");
       }, 1000);
@@ -65,7 +65,7 @@ function createBot() {
     if (text.includes("login")) {
       setTimeout(() => {
        bot.chat("/login botwa123123");
-     }, 1000);
+     }, 1000);*/
     }
   });
 
