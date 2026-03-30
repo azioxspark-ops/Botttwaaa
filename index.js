@@ -55,7 +55,7 @@ function createBot() {
     shouldReconnect = true;
 
     setTimeout(() => {
-      bot.chat("/login botwa123123");
+    //  bot.chat("/login botwa123123");
     }, 4000);
 
     jumpInterval = setInterval(() => {
