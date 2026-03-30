@@ -37,7 +37,7 @@ function createBot() {
     host: "Season_four.aternos.me",
     port: 32675,
     username: "chatpata_aauu",
-    version: "1.21.10"
+    version: "1.21.11"
   });
 
   bot.loadPlugin(pvp);
